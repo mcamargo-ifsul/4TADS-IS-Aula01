@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, Image } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Image source={require('./assets/logoIF.png')} style={{width: 150, height:200}}/>
+      <Image source={require('./assets/favicon.png')} style={{width: 150, height:200}}/>
       <Text style={{fontSize: 25}}>Olá alunos do 4TADS!</Text>
       <StatusBar style="auto" />
     </View>
